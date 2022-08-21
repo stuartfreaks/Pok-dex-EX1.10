@@ -8,6 +8,12 @@ Colors are an attempt to match Pokemon's original ones!
 #0A285F; 
 */
 
+@font-face {
+    font-family: 'Pokemon Solid';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pokemon Solid'), url('https://fonts.cdnfonts.com/s/17890/Pokemon Solid.woff') format('woff');
+    }
 
 * {
     margin: 0;
@@ -15,6 +21,9 @@ Colors are an attempt to match Pokemon's original ones!
     box-sizing: border-box;
     
   }
+
+
+
   body {
     text-align: center;
     color: #FFCC00;
@@ -42,7 +51,7 @@ Colors are an attempt to match Pokemon's original ones!
       font: bold;
       font-family: 'Pokemon Solid', sans-serif;
       font-size: 1em;
-      text-shadow: -1px -8px 0 #000, 1px -4px 0 #000, -1px 3px 0 #000, 1px 1px 0 #000;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
       margin: 4px 2px;
       -webkit-transition-duration: 0.4s; /* Safari */
       transition-duration: 0.4s;
@@ -100,7 +109,7 @@ Colors are an attempt to match Pokemon's original ones!
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    border-radius: 10%;
+   
     background: #fff;
     padding: 15px;
     width: 80%;
