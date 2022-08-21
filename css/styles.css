@@ -29,7 +29,7 @@ Colors are an attempt to match Pokemon's original ones!
     color: #FFCC00;
     font-size: 1.6em;
     font-family: 'Pokemon Solid', sans-serif;
-    text-shadow: -1px -8px 0 #0075BE, 1px -2px 0 #D5A100, -1px 1px 0 #ffffff, 1px 1px 0 #000;
+    text-shadow: -1px 1px 0 #0075BE, 1px -2px 0 #D5A100, -1px 1px 0 #ffffff, 1px 1px 0 #000;
    
     
   }
